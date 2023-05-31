@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0df2430f-7fcc-4200-aecc-4a779d318fcb" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/test/StreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/StreamTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

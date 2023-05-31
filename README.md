@@ -1,1 +1,1 @@
-A project containing tests to verify the functionality of *CompletableFuture*.
+A project containing tests to verify the functionality of java concepts.
