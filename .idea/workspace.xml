@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df2430f-7fcc-4200-aecc-4a779d318fcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/NestedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +67,7 @@
       <recent name="one" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NestedTest">
+  <component name="RunManager" selected="JUnit.StreamTest">
     <configuration name="CompletableFutureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="completable-future" />
       <extension name="coverage">
@@ -98,38 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompletableFutureTest.thenAccept" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="completable-future" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.CompletableFutureTest" />
-      <option name="METHOD_NAME" value="thenAccept" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompletableFutureTest.thenApply_thenAccept" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="completable-future" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.CompletableFutureTest" />
-      <option name="METHOD_NAME" value="thenApply_thenAccept" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NestedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="completable-future" />
       <extension name="coverage">
@@ -145,13 +114,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="completable-future" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.StreamTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamTest.anyMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="completable-future" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.StreamTest" />
+      <option name="METHOD_NAME" value="anyMatch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamTest" />
+        <item itemvalue="JUnit.StreamTest.anyMatch" />
         <item itemvalue="JUnit.NestedTest" />
         <item itemvalue="JUnit.CompletableFutureTest" />
         <item itemvalue="JUnit.CompletableFutureTest.allOf" />
-        <item itemvalue="JUnit.CompletableFutureTest.thenApply_thenAccept" />
-        <item itemvalue="JUnit.CompletableFutureTest.thenAccept" />
       </list>
     </recent_temporary>
   </component>
